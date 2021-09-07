@@ -1,0 +1,97 @@
+.about_container {
+  width: 100vw;
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  position: relative;
+}
+.about_container::selection,
+.about_background_text::selection {
+  background-color: none;
+}
+
+.about_me_text {
+  font-size: 4.7vw;
+  line-height: 1.5;
+  padding: 100px;
+  font-family: vcr osd mono;
+  text-shadow: 0.3vw 0.1vh rgb(2 183 182 / 30%),
+    -0.3vw -0.3vh rgb(183 2 2 / 40%);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--aboutTextColor);
+}
+.about_me_text span {
+  color: var(--aboutSpanColor);
+}
+.name p {
+  font-size: 2.5vw;
+  font-family: "Nunito Sans", sans-serif;
+  opacity: 0;
+  transition: all 0.6s 0.2s;
+  transform: translateY(40px);
+}
+.name.show_name p {
+  opacity: 1;
+  transform: translateY(20px);
+}
+
+.about_me_icon_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about_me_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 31px;
+  z-index: 3;
+}
+.about_icon {
+  width: 50px;
+  height: 50px;
+}
+.icon_label {
+  color: #1c1d25;
+  font-size: 10px;
+  font-family: "leagueSpartan";
+  text-align: center;
+  transition: all 0.6s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+.about_me_icon:hover .icon_label {
+  transform: translateY(1px);
+  opacity: 1;
+}
+.about_me_icon:hover .react_icon {
+  color: #61dafb;
+}
+.about_me_icon:hover .css_icon {
+  color: #e54d26;
+}
+.about_me_icon:hover .html_icon {
+  color: #24d;
+}
+.about_me_icon:hover .javascript_icon {
+  color: #ecd120;
+}
+.about_me_icon:hover .redux_icon {
+  color: rgb(100, 34, 221);
+}
+@media screen and (max-width: 480px) {
+  .about_background_text {
+    top: 20%;
+    left: 10%;
+    letter-spacing: 3px;
+  }
+  .about_me_head {
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about_me_text {
+    padding: 100px 50px 50px;
+  }
+}

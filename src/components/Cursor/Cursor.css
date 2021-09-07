@@ -1,0 +1,15 @@
+.cursor {
+  width: 10px;
+  height: 10px;
+  background-color: #efe5df;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  position: absolute;
+  z-index: 100;
+  pointer-events: none;
+}
+@media screen and (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}

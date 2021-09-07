@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "cardTitle": "signUp form",
+    "cardSubTitle": "I learned about form validation with this project by using javascript and regex.",
+    "cardNumber": "01",
+    "cardImage": "/images/signupImg.png",
+    "cardLink": "https://pinki-851.github.io/signup-ui/"
+  },
+  {
+    "id": 2,
+    "cardTitle": "mobileWeb",
+    "cardSubTitle": "work with React and Redux with this project learn about accordian and carousel.",
+    "cardNumber": "02",
+    "cardImage": "/images/webpageImg.png",
+    "cardLink": "http://mobilesite.surge.sh/"
+  },
+
+  {
+    "id": 3,
+    "cardTitle": "imageAnalyzer",
+    "cardSubTitle": "learned how to select image with input tag and how to display size,name and dimension of image with the help of javascript.",
+    "cardNumber": "03",
+    "cardImage": "/images/analyseImg1.png",
+    "cardLink": "https://pinki-851.github.io/resize-ui/"
+  },
+  {
+    "id": 4,
+    "cardTitle": "projectPlan",
+    "cardSubTitle": "with this project I learn about authentication",
+    "cardNumber": "04",
+    "cardImage": "/images/projectImg.png",
+    "cardLink": "https://pinki-851.github.io/projectPlan/"
+  }
+]

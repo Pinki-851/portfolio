@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--secondaryColor);
+  background-color: #f3f3f3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: leagueSpartan;
+  src: url(./assets/league-spartan-master/LeagueSpartan-Bold.otf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: uncialantiqua;
+  src: url(./assets/UncialAntiqua-9mR7.ttf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: vcr osd mono;
+  src: url(./assets/vcr-osd-mono/VCR_OSD_MONO_1.001.ttf);
 }
-
-.App-link {
-  color: #61dafb;
+:root {
+  --primaryColor: #000;
+  --secondaryColor: #efe5df;
+  --menuColor: #4c4f65;
+  --menuHover: #000;
+  --aboutTextColor: rgb(34, 34, 34);
+  --aboutSpanColor: #000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark_theme {
+  --primaryColor: #efe5df;
+  --secondaryColor: #000;
+  --menuColor: #b0b2c3;
+  --menuHover: #fff;
+  --aboutTextColor: #a0a0a0;
+  --aboutSpanColor: #fff;
 }

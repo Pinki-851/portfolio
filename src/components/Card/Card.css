@@ -1,0 +1,213 @@
+.whole_work_card_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 120px 50px 0px;
+  overflow-x: hidden;
+}
+.work_card_container {
+  position: relative;
+  width: 80%;
+  background-color: rgba(28, 29, 37, 0.9);
+  background-image: linear-gradient(to right, rgba(2, 8, 26, 0.9), #1c1d25);
+  transition: all 0.5s;
+  margin: 0px auto 135px;
+  box-shadow: 0px 20px 80px 0px rgb(0, 0, 0, 0.3);
+}
+.work_card_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #101b3b, #235aa6);
+  z-index: 1;
+  transition: all 1s;
+}
+.work_card_container.reveal::before {
+  width: 0;
+}
+.work_card_wrapper {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  opacity: 0.5;
+}
+.card_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 13, 46, 0.9),
+    rgba(35, 90, 166, 0.9)
+  );
+  transition: all 0.5s;
+}
+.work_card_container:hover .card::before {
+  width: 100%;
+}
+
+.card_text_section {
+  width: 85%;
+  position: absolute;
+  bottom: 90px;
+  font-family: leagueSpartan;
+  color: #fff;
+  transition: all 0.3s linear;
+  transform: scale(1);
+}
+.card_text_section .title {
+  font-size: 4vw;
+  font-family: poppins, sans-serif;
+  text-transform: capitalize;
+}
+.card_text_section .subtitle {
+  font-size: 1.4vw;
+  font-family: poppins, serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: #fff;
+}
+.card_text_section .button .rightArrow {
+  color: #fff;
+}
+
+.card_number {
+  position: absolute;
+  top: -33px;
+  font-family: "leagueSpartan", sans-serif;
+  font-size: 13vw;
+  opacity: 0;
+  transition: all 0.4s linear 0.2s;
+  transform: translateY(10%);
+  color: #fff;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-image: linear-gradient(rgb(182, 179, 179) 50%, #fff 50%);
+  background-size: 100% 200%;
+  background-position: top left;
+}
+.work_card_container:hover .card_number {
+  background-position: bottom left;
+}
+.work_card_container:hover .card_number {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.work_card_container:hover .card_text_section {
+  transform: scale(1.1);
+}
+.work_card_container:nth-child(even) {
+  transform: translateX(-30px);
+}
+.work_card_container:nth-child(odd) {
+  transform: translateX(30px);
+}
+.work_card_container:nth-child(even) .card_text_section {
+  width: 82%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.work_card_container:nth-child(odd) .card_text_section {
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.work_card_container:nth-child(even) .card_number {
+  left: -50px;
+}
+.work_card_container:nth-child(odd) .card_number {
+  right: -30px;
+}
+/* ------for tablet------------ */
+@media screen and (max-width: 768px) {
+  .whole_work_card_container {
+    padding: 120px 0px;
+  }
+  .work_card_container {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  .card_text_section {
+    bottom: 50px;
+  }
+
+  .work_card_container:nth-child(even),
+  .work_card_container:nth-child(odd) {
+    transform: translateX(0px);
+  }
+  .card_text_section .subtitle {
+    font-size: 2vw;
+  }
+  .work_card_container:nth-child(even) .card_number {
+    left: -4%;
+    top: -12%;
+  }
+  .work_card_container:nth-child(odd) .card_number {
+    right: 0%;
+    top: -12%;
+  }
+
+  .card_number {
+    visibility: hidden;
+  }
+  .card_number.reveal_card_number {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+    background-position: bottom left;
+  }
+}
+/* --------for mobile---------- */
+@media screen and (max-width: 480px) {
+  .whole_work_card_container {
+    padding: 80px 0px;
+  }
+  .work_card_container:nth-child(even),
+  .work_card_container:nth-child(odd) {
+    transform: translateX(0px);
+  }
+  .card_text_section {
+    bottom: 25px;
+  }
+
+  .card_text_section .title {
+    font-size: 5vw;
+  }
+  .card_text_section .subtitle {
+    font-size: 3.3vw;
+    margin-bottom: 10px;
+  }
+}

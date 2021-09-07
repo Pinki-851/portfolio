@@ -1,0 +1,21 @@
+ul.navbar {
+  width: 100%;
+  color: #efe5df;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  z-index: 100;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+ul.navbar li {
+  list-style: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  position: relative;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+  mix-blend-mode: difference;
+  pointer-events: auto;
+}
