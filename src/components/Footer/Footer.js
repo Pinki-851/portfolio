@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import "./Footer.css";
+import resume from "../../assets/images/resume.pdf";
 
 const Footer = () => {
   const homeHistory = useHistory();
@@ -22,7 +23,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="/images/resume.pdf" target="_blank">
+          <a href={resume} target="_blank">
             resume
           </a>
         </li>

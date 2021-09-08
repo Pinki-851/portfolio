@@ -1,6 +1,6 @@
-import data from "../../data/cardData.json";
+import { CardData } from "../../data/CardData.js";
 const initialstate = {
-  cardData: data,
+  cardData: CardData,
   lightMode: false,
 };
 
