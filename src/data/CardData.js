@@ -20,7 +20,7 @@ export const CardData = [
       "work with React and Redux with this project learn about accordian and carousel.",
     cardNumber: "02",
     cardImage: webpageImg,
-    cardLink: "http://mobilesite.surge.sh/",
+    cardLink: "https://pinki-851.github.io/mobile-website/#/",
   },
 
   {

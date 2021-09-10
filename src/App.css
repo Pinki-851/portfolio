@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,15 +20,11 @@ body {
 
 @font-face {
   font-family: leagueSpartan;
-  src: url(./assets/league-spartan-master/LeagueSpartan-Bold.otf);
+  src: url(./assets/font/league-spartan-master/LeagueSpartan-Bold.otf);
 }
 @font-face {
   font-family: uncialantiqua;
-  src: url(./assets/UncialAntiqua-9mR7.ttf);
-}
-@font-face {
-  font-family: vcr osd mono;
-  src: url(./assets/vcr-osd-mono/VCR_OSD_MONO_1.001.ttf);
+  src: url(./assets/font/UncialAntiqua-9mR7.ttf);
 }
 :root {
   --primaryColor: #000;
