@@ -30,10 +30,12 @@ const Home = (props) => {
     if (y > 0 && y < 1000) {
       lineFirst.style.transform = `translateX(${-y / 2}px)`;
       lineSecond.style.transform = `translateX(${y / 2}px)`;
-    } else {
-      lineFirst.style.transform = `translateX(0px)`;
-      lineSecond.style.transform = `translateX(0px)`;
+      // console.log(lineFirst.style.transform, lineSecond.style.transform);
     }
+    //  else {
+    //   lineFirst.style.transform = `translateX(0px)`;
+    //   lineSecond.style.transform = `translateX(0px)`;
+    // }
   };
   const handleListScroll = (e) => {
     let listScroll = document.querySelector(".list_scroll");
