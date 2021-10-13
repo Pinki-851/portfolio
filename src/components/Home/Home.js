@@ -21,18 +21,16 @@ const Home = (props) => {
     props.lightModeValue(true);
     document.body.classList.add("dark_theme");
   };
-
   const moveHomeContent = () => {
     let y = window.pageYOffset;
     let lineFirst = document.querySelector(".line_first");
     let lineSecond = document.querySelector(".line_second");
-
     if (y > 0 && y < 1000) {
       lineFirst.style.transform = `translateX(${-y / 2}px)`;
       lineSecond.style.transform = `translateX(${y / 2}px)`;
       // console.log(lineFirst.style.transform, lineSecond.style.transform);
     }
-    //  else {
+    // else {
     //   lineFirst.style.transform = `translateX(0px)`;
     //   lineSecond.style.transform = `translateX(0px)`;
     // }

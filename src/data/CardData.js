@@ -2,6 +2,7 @@ import signupImg from "../assets/images/signupImg.png";
 import webpageImg from "../assets/images/webpageImg.png";
 import analyseImg1 from "../assets/images/analyseImg1.png";
 import projectImg from "../assets/images/projectImg.png";
+import ecommerceImg from "../assets/images/ecommerceImg.png";
 
 export const CardData = [
   {
@@ -25,6 +26,14 @@ export const CardData = [
 
   {
     id: 3,
+    cardTitle: "e-commerce",
+    cardSubTitle: "learned about how data will flow on e-commerce site.",
+    cardNumber: "03",
+    cardImage: ecommerceImg,
+    cardLink: "https://pinki-851.github.io/e-commerce/#/",
+  },
+  {
+    id: 4,
     cardTitle: "imageAnalyzer",
     cardSubTitle:
       "learned how to select image with input tag and how to display size,name and dimension of image with the help of javascript.",
@@ -33,7 +42,7 @@ export const CardData = [
     cardLink: "https://pinki-851.github.io/resize-ui/",
   },
   {
-    id: 4,
+    id: 5,
     cardTitle: "projectPlan",
     cardSubTitle: "with this project I learn about authentication",
     cardNumber: "04",
