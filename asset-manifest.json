@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f5eced58.chunk.css",
-    "main.js": "/portfolio/static/js/main.3113239f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3113239f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.139664a6.chunk.css",
+    "main.js": "/portfolio/static/js/main.0a021610.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0a021610.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.56cde7ed.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.56cde7ed.js.map",
     "static/js/2.62fa9dab.chunk.js": "/portfolio/static/js/2.62fa9dab.chunk.js",
     "static/js/2.62fa9dab.chunk.js.map": "/portfolio/static/js/2.62fa9dab.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.f5eced58.chunk.css.map": "/portfolio/static/css/main.f5eced58.chunk.css.map",
+    "static/css/main.139664a6.chunk.css.map": "/portfolio/static/css/main.139664a6.chunk.css.map",
     "static/js/2.62fa9dab.chunk.js.LICENSE.txt": "/portfolio/static/js/2.62fa9dab.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/UncialAntiqua-9mR7.eea5255a.ttf",
     "static/media/analyseImg1.a3ddd363.png": "/portfolio/static/media/analyseImg1.a3ddd363.png",
+    "static/media/ecommerceImg.72f3a0f3.png": "/portfolio/static/media/ecommerceImg.72f3a0f3.png",
     "static/media/projectImg.f44f7926.png": "/portfolio/static/media/projectImg.f44f7926.png",
     "static/media/resume.5d3f02ea.pdf": "/portfolio/static/media/resume.5d3f02ea.pdf",
     "static/media/signupImg.3c4c1abe.png": "/portfolio/static/media/signupImg.3c4c1abe.png",
@@ -20,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.56cde7ed.js",
     "static/js/2.62fa9dab.chunk.js",
-    "static/css/main.f5eced58.chunk.css",
-    "static/js/main.3113239f.chunk.js"
+    "static/css/main.139664a6.chunk.css",
+    "static/js/main.0a021610.chunk.js"
   ]
 }
