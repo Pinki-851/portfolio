@@ -194,7 +194,7 @@
 /* --------for mobile---------- */
 @media screen and (max-width: 480px) {
   .whole_work_card_container {
-    padding: 80px 0px;
+    padding: 0px;
   }
   .work_card_container:nth-child(even),
   .work_card_container:nth-child(odd) {
