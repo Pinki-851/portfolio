@@ -34,19 +34,20 @@ export const CardData = [
   },
   {
     id: 4,
-    cardTitle: "imageAnalyzer",
-    cardSubTitle:
-      "learned how to select image with input tag and how to display size,name and dimension of image with the help of javascript.",
-    cardNumber: "03",
-    cardImage: analyseImg1,
-    cardLink: "https://pinki-851.github.io/resize-ui/",
-  },
-  {
-    id: 5,
     cardTitle: "projectPlan",
     cardSubTitle: "with this project I learn about authentication",
     cardNumber: "04",
     cardImage: projectImg,
     cardLink: "https://pinki-851.github.io/projectPlan/",
+  },
+
+  {
+    id: 5,
+    cardTitle: "imageAnalyzer",
+    cardSubTitle:
+      "learned how to select image with input tag and how to display size,name and dimension of image with the help of javascript.",
+    cardNumber: "05",
+    cardImage: analyseImg1,
+    cardLink: "https://pinki-851.github.io/resize-ui/",
   },
 ];
